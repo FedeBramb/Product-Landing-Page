@@ -1,0 +1,129 @@
+html {
+    font-size: 10px;
+}
+
+
+body {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #1c689c;
+    
+}
+
+.wrapper {
+    padding: 15px 35px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: #1c689c;
+}
+
+img {
+    height: 76px;
+    width: 138px;
+}
+
+#nav-bar {
+    margin: auto 0 auto auto;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 10px;
+    color: #1c689c;
+    font-weight: bold;
+}
+
+
+.nav-link:hover {
+    background-color: #2d74a2;
+    color: white;
+}
+
+
+@media screen and (max-width: 650px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav-bar {
+        margin: auto;
+        order: -1;
+    }
+}
+
+
+hr {
+    border: 1px solid #1c689c;
+    margin: 10px 0;
+  }
+
+main, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    margin: 15px 0 30px 0;
+    
+}
+
+#email {
+    text-align: center;
+    border-width: 2px;
+    border-color: #1c689c;
+}
+
+#submit {
+    display: block;
+    margin: 10px auto;
+    color: aliceblue;
+    background-color: #1c689c;
+    
+}
+
+#submit:hover {
+    background-color: aliceblue;
+    color: #1c689c;
+}
+
+#video {
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin-top: -10px;
+    font-size: 1.7rem;
+}
+
+
+
+.product {
+    border: 2px solid #1c689c;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.btn {
+    width: 100%;
+    background-color: lightblue;
+}
